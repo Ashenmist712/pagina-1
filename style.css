@@ -1,0 +1,60 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.tarjeta {
+    background: #121212; 
+    width: 360px;
+    border-radius: 25px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(255, 140, 0, 0.2);
+    border: 1px solid #ff7b00;
+    color: #f5f5f5;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 45px rgba(255, 140, 0, 0.4);
+}
+
+.nombre {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.titulo {
+    font-size: 1.2rem;
+    color: #ffa733;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.descripcion {
+    font-size: 0.95rem;
+    color: #d1d1d1;
+    margin-bottom: 25px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.contacto p {
+    margin: 6px 0;
+    color: #cccccc;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.contacto p::before {
+    content: "• ";
+    color: #ff7b00;
+}
